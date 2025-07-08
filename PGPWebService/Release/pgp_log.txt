@@ -1,0 +1,60 @@
+Tue Jul 08 13:17:47 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:17:47 2025: Not enough entropy to encrypt.
+Tue Jul 08 13:17:47 2025: Minimun Entropy Needed: 192 - Current Entropy: 0
+Tue Jul 08 13:17:47 2025: Generating new entropy.
+Tue Jul 08 13:17:47 2025: Enough entropy genearted to encrypt.
+Tue Jul 08 13:17:47 2025: Minimun Entropy Needed: 192 - Current Entropy: 511
+Tue Jul 08 13:17:47 2025: Starting encryption...
+Tue Jul 08 13:17:47 2025: Encryption was successful.
+Tue Jul 08 13:17:50 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:17:50 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:17:50 2025: Passphrase is valid.
+Tue Jul 08 13:17:50 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:18:56 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:18:56 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:18:56 2025: Passphrase is valid.
+Tue Jul 08 13:18:56 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:19:26 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:26 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:19:26 2025: Passphrase is valid.
+Tue Jul 08 13:19:26 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:19:30 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:30 2025: Not enough entropy to encrypt.
+Tue Jul 08 13:19:30 2025: Minimun Entropy Needed: 192 - Current Entropy: 0
+Tue Jul 08 13:19:30 2025: Generating new entropy.
+Tue Jul 08 13:19:30 2025: Enough entropy genearted to encrypt.
+Tue Jul 08 13:19:30 2025: Minimun Entropy Needed: 192 - Current Entropy: 538
+Tue Jul 08 13:19:30 2025: Starting encryption...
+Tue Jul 08 13:19:30 2025: Encryption was successful.
+Tue Jul 08 13:19:33 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:33 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:19:33 2025: Passphrase is valid.
+Tue Jul 08 13:19:33 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:19:33 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:33 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:19:33 2025: Passphrase is valid.
+Tue Jul 08 13:19:33 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:19:34 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:34 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:19:34 2025: Passphrase is valid.
+Tue Jul 08 13:19:34 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:19:35 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:19:35 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:19:35 2025: Passphrase is valid.
+Tue Jul 08 13:19:35 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:21:43 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:21:43 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:21:43 2025: Passphrase is valid.
+Tue Jul 08 13:21:43 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:10 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:22:10 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:10 2025: Passphrase is valid.
+Tue Jul 08 13:22:10 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:11 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:22:11 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:11 2025: Passphrase is valid.
+Tue Jul 08 13:22:11 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:12 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Release\key.asc
+Tue Jul 08 13:22:12 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:12 2025: Passphrase is valid.
+Tue Jul 08 13:22:12 2025: Decryption successful. Bytes decrypted: 12

@@ -1,0 +1,24 @@
+Tue Jul 08 13:22:41 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Debug\key.asc
+Tue Jul 08 13:22:41 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:41 2025: Passphrase is valid.
+Tue Jul 08 13:22:41 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:42 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Debug\key.asc
+Tue Jul 08 13:22:42 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:42 2025: Passphrase is valid.
+Tue Jul 08 13:22:42 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:42 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Debug\key.asc
+Tue Jul 08 13:22:42 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:22:42 2025: Passphrase is valid.
+Tue Jul 08 13:22:42 2025: Decryption successful. Bytes decrypted: 12
+Tue Jul 08 13:22:55 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Debug\key.asc
+Tue Jul 08 13:22:55 2025: Not enough entropy to encrypt.
+Tue Jul 08 13:22:55 2025: Minimun Entropy Needed: 192 - Current Entropy: 0
+Tue Jul 08 13:22:55 2025: Generating new entropy.
+Tue Jul 08 13:22:55 2025: Enough entropy genearted to encrypt.
+Tue Jul 08 13:22:55 2025: Minimun Entropy Needed: 192 - Current Entropy: 474
+Tue Jul 08 13:22:55 2025: Starting encryption...
+Tue Jul 08 13:22:55 2025: Encryption was successful.
+Tue Jul 08 13:23:07 2025: Resolved KEY_FILE: D:\eDisSourceCodeGitHub\PGPWebService\Debug\key.asc
+Tue Jul 08 13:23:07 2025: Found secret key. Verifying passphrase...
+Tue Jul 08 13:23:07 2025: Passphrase is valid.
+Tue Jul 08 13:23:07 2025: Decryption successful. Bytes decrypted: 15
