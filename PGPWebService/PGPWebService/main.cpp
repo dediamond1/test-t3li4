@@ -2,6 +2,13 @@
 #include "pgp_wrapper.h"
 #include <string>
 
+// Handler for root route
+int root_handler(struct mg_connection *conn, void *cbdata) {
+    mg_printf(conn,
+              "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nServer is running");
+    return 200;
+}
+
 // Handler for /encrypt
 int encrypt_handler(struct mg_connection *conn, void *cbdata) {
     char post_data[1024];
@@ -42,6 +49,7 @@ int main() {
 
     mg_set_request_handler(ctx, "/encrypt", encrypt_handler, 0);
     mg_set_request_handler(ctx, "/decrypt", decrypt_handler, 0);
+    mg_set_request_handler(ctx, "/", root_handler, 0);
 
     printf("Server started on port 8080\n");
     getchar();  // Wait for user input to stop the server
