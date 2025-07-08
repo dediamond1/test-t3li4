@@ -49,7 +49,7 @@ int main() {
 
     mg_set_request_handler(ctx, "/encrypt", encrypt_handler, 0);
     mg_set_request_handler(ctx, "/decrypt", decrypt_handler, 0);
-    mg_set_request_handler(ctx, "/", root_handler, 0);
+    mg_set_request_handler(ctx, "/home", root_handler, 0);
 
     printf("Server started on port 8080\n");
     getchar();  // Wait for user input to stop the server
