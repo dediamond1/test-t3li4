@@ -3,19 +3,21 @@
 #include <string>
 
 // Handler for root route
-int root_handler(struct mg_connection *conn, void *cbdata) {
+int root_handler(struct mg_connection *conn, void *cbdata)
+{
     mg_printf(conn,
               "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\nServer is running");
     return 200;
 }
 
 // Handler for /encrypt
-int encrypt_handler(struct mg_connection *conn, void *cbdata) {
+int encrypt_handler(struct mg_connection *conn, void *cbdata)
+{
     char post_data[1024];
     int post_data_len = mg_read(conn, post_data, sizeof(post_data));
     post_data[post_data_len] = '\0';
 
-	std::string encrypted_text = encrypt_text(post_data);	
+    std::string encrypted_text = encrypt_text(post_data);
 
     mg_printf(conn,
               "HTTP/1.1 200 OK\r\nContent-Type: text/plain\r\n\r\n%s",
@@ -24,7 +26,8 @@ int encrypt_handler(struct mg_connection *conn, void *cbdata) {
 }
 
 // Handler for /decrypt
-int decrypt_handler(struct mg_connection *conn, void *cbdata) {
+int decrypt_handler(struct mg_connection *conn, void *cbdata)
+{
     char post_data[1024];
     int post_data_len = mg_read(conn, post_data, sizeof(post_data));
     post_data[post_data_len] = '\0';
@@ -37,9 +40,10 @@ int decrypt_handler(struct mg_connection *conn, void *cbdata) {
     return 200;
 }
 
-int main() {
+int main()
+{
     const char *options[] = {
-        "document_root", ".", "listening_ports", "8080", 0};
+        "document_root", ".", "listening_ports", "8090", 0};
 
     struct mg_callbacks callbacks;
     struct mg_context *ctx;
@@ -52,7 +56,7 @@ int main() {
     mg_set_request_handler(ctx, "/home", root_handler, 0);
 
     printf("Server started on port 8080\n");
-    getchar();  // Wait for user input to stop the server
+    getchar(); // Wait for user input to stop the server
 
     mg_stop(ctx);
     return 0;
